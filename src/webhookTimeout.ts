@@ -1,4 +1,4 @@
-import { updateTask } from "./integration"; // updateTask is now exported
+import { updateTask } from "./integration";
 
 export function diagnoseWebhookTimeout(): string[] {
     return [
@@ -44,8 +44,8 @@ export async function batchUpdateTasks(
 
 export function suggestLongTermImprovements(): string[] {
     return [
-        "Async queues for bulk updates",
-        "Better monitoring for timeouts",
-        "Optimize TaskMaster API throughput",
+        "Asynchronous queues for bulk updates",
+        "Improved timeout monitoring",
+        "Optimized TaskMaster API throughput",
     ];
 }

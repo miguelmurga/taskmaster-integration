@@ -1,6 +1,6 @@
 import axios, { type AxiosResponse, type AxiosError } from "axios";
 
-const BASE_URL = "https://api.taskmaster.com";
+const BASE_URL = "http://localhost:3000";
 
 export async function getAccessToken(authCode: string): Promise<string> {
     const url = `${BASE_URL}/oauth/token`;
