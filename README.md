@@ -75,7 +75,7 @@ Testing the `/newTasks` endpoint:
 ✅ **Improved API Handling**: Handles `429 Too Many Requests` errors gracefully.
 
 ## Suggested Improvements
-1. **Asynchronous queues for bulk updates** (e.g., RabbitMQ, Kafka).
+1. **Asynchronous queues for bulk updates** ().
 2. **Enhanced timeout monitoring** using logging and analytics.
 3. **Dynamic batch size optimization** to improve API throughput.
 
